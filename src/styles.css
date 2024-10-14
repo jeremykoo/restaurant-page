@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../coffee-background.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+    background-color: #51372f;
+    color: #ddcdbd;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+    color: #ddcdbd;
+}
+
+.about {
+    font-size: 24px;
+}
+
+.menu,
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 20px;
+    padding: 40px;
+}
+
+.home button {
+    margin-right: 10px;
+}
+
+.container {
+    border: 2px solid #ddcdbd;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 1000px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.item > div > p,
+.item > div > h2 {
+    margin-top: 0;
+    padding: 0;
+}
+
+.item > p {
+    margin-top: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
